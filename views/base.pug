@@ -1,0 +1,21 @@
+doctype html 
+html 
+head 
+    block title 
+    block style
+    style 
+        include ../static/style.css
+body 
+ nav.nav
+        ul
+            img#logo(src="../static/logo2.png", alt="")
+       
+            li #[a(href="/") Home]
+            li #[a(href="/service") Services]
+            li #[a(href="/about") About Us]
+            li #[a(href="/contact") Contact Us]
+        form#form(action="/")
+            label#label(for="search") Search 
+            input#search(type="text")
+block content 
+

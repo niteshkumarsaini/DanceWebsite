@@ -1,0 +1,22 @@
+extends base.pug
+block title 
+    title Contact
+block style 
+     style 
+        include ../static/contact.css
+    
+block content 
+    section#image
+        form#myform(action="/contact", method="post")
+
+           
+            input#name.input(type="text" name="name" placeholder="Enter your Name")
+           
+            input#phone.input(type="phone" name="phone" placeholder="Enter your Phone")
+            
+            input#email.input(type="email" name="email" placeholder="Enter your Email")
+          
+            input#gender.input(type="text" name="gender" placeholder="Enter your Gender") 
+            input#address.input(type="text" name="address" placeholder="Enter your Address")
+            button.btn Submit
+

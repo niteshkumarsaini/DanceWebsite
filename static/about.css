@@ -1,0 +1,76 @@
+#pa1{
+    padding:0px 0px;
+    padding-top: 50px;
+}
+#para::before{
+    background: linear-gradient(#250703c4,white);
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 1523px;
+    height: 1003px;
+    margin: -63px -144px;
+
+
+}
+#para{
+color: white;
+padding: 10px 130px;
+margin: 50px 10px;
+font-size: 18px;
+height: 900px;
+
+}
+
+#mydiv{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+ 
+    width: 1320px;
+    height: 370px;
+margin: 20px -47px;
+
+    display: flex;
+}
+.paAll{
+    border-radius: 30px;
+    padding: 4px 10px;
+    list-style:disc;
+    border: 2px solid brown;
+    margin-top :10px;
+    width: 400px;
+    font-size: 25px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(228, 228, 228, 0.795);
+   color: blue;
+   -webkit-text-stroke: 1px red;
+   text-shadow: -3px 0px 15px yellow;;
+   
+   
+    margin: 50px 30px;
+   
+
+}
+#pa2{
+   margin-top: 50px;
+  
+}
+#pa3{
+    margin-top:50px;
+}
+#pa4{
+    margin: 0px auto;
+    margin-top: 70px;
+    font-weight: bold;
+
+    font-size: 45px;
+    width: 580px;
+    -webkit-text-stroke:1px black;
+    color: RED;
+    
+}
